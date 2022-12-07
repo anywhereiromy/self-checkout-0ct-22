@@ -1,32 +1,30 @@
 const orange = {
     barcode: 789,
     price: 7,
-   };
-   const pineapple = {
+};
+const pineapple = {
     barcode: 5367,
     price: 80,
-   };
-   const kiwi = {
+};
+const kiwi = {
     barcode: 765,
     price: 25,
-   };
-   const apple = {
+};
+const apple = {
     barcode: 123,
     price: 5,
-   };
-   
-   const banana = {
+};
+const banana = {
     barcode: 456,
     price: 6
-   };
+};
 
-   const catalogue = [
+const catalogue = [
     apple,
     banana,
     orange,
     pineapple,
     kiwi,
   ];
- 
-   
-   module.exports = { orange, pineapple, kiwi, apple, banana, catalogue };
+
+module.exports = { orange, pineapple, kiwi, apple, banana, catalogue };
